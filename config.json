@@ -1,0 +1,14 @@
+{
+  "name": "Test Plugin",
+  "guid": "plugin-test-guid",
+  "version": "1.0.0",
+  "description": "Plugin OnlyOffice de test depuis GitHub Pages",
+  "url": "https://alya-saa.github.io/onlyoffice-plugins/plugin.html",
+  "icons": [],
+  "buttons": [
+    {
+      "text": "Lancer le plugin",
+      "primary": true
+    }
+  ]
+}
