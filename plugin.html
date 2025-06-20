@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Plugin Example</title>
+  <script>
+    // Fonction appelée par OnlyOffice quand on clique sur le bouton du plugin
+    function onButtonClick() {
+      Api.GetDocument().GetWorkbook().GetActiveWorksheet().GetRange("A1").SetValue("Hello from Plugin!");
+      Api.ShowMessage("Cellule A1 modifiée !");
+    }
+  </script>
+</head>
+<body>
+  <button onclick="onButtonClick()">Clique ici</button>
+</body>
+</html>
